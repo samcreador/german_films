@@ -1,32 +1,17 @@
-/* Center content styling */
-.content-container {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 20px;
-  text-align: center;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* Styling for iframe elements */
+iframe {
+  width: 100%; /* Make the iframe take up the full width of its container */
+  height: 500px; /* Set a uniform height for all iframes */
+  border: 2px solid #d4af8d; /* Add a beige border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  background-color: #f5f5dc; /* Set a beige background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for better aesthetics */
+  margin-bottom: 20px; /* Add spacing below each iframe */
 }
 
+/* Add padding or spacing around iframe titles (h2) */
 h2 {
-  margin-bottom: 20px;
-  color: #444;
-}
-
-video, iframe {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-a {
-  display: inline-block;
-  margin-top: 10px;
-  text-decoration: none;
-  color: #0066cc;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: #8b4513; /* Set a darker complementary color for titles */
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
 }
